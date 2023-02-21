@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# <p style="text-align:center">
-#     <a href="https://www.linkedin.com/company/mt-learners/?viewAsMember=true" target="_blank">
-#     <img src="https://media-exp2.licdn.com/dms/image/C4D22AQFi0OVtzMJ3OA/feedshare-shrink_800/0/1657887716623?e=1660780800&v=beta&t=d-O1tmLGC0phHv3oREvvz6I9akSJMJXhzU8ZyCZJZo0" width="200" alt="MT Learners"  />
-#     </a>
 # </p>
 # 
 
@@ -12,7 +8,7 @@
 
 # ### Importing required libraries
 
-# In[1]:
+
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -25,7 +21,7 @@ import numpy as np
 
 # **Note:** All steps that are performed below are explain in detail in <a href="https://github.com/Mr-MeerMoazzam/Data-Visualization-with-Python/blob/main/Matplotlib_line_chart.ipynb" target="_blank">Tutorial</a>
 
-# In[2]:
+
 
 
 df = pd.read_excel(
@@ -739,7 +735,7 @@ print(f'Sum: {total_sum}')
 print(f'For loop: {time.time() - start} seconds')  # Total time taken  for the for loop
 
 
-# In[9]:
+
 
 
 ## Faster way to loop the above
@@ -754,7 +750,7 @@ print(f'Sum: {total_sum}')
 print(f'Sum/range: {time.time() - start} seconds')
 
 
-# In[8]:
+
 
 
 # Fastest way is to use  Numpy
@@ -768,7 +764,6 @@ print(f'Sum: {total_sum}')
 print(f'Duration: {time.time() - start} seconds')
 
 
-# In[ ]:
 
 
 
